@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ziyuan</display-name>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>individual.test.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListUI</servlet-name>
+    <servlet-class>individual.ui.ListUI</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ControllerServlet</servlet-name>
+    <servlet-class>individual.controller.ControllerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>individual.controller.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>individual.controller.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PathServlet</servlet-name>
+    <servlet-class>individual.controller.PathServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Path4Upload</servlet-name>
+    <servlet-class>individual.controller.Path4Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ResourceServlet</servlet-name>
+    <servlet-class>individual.controller.ResourceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NewFindAllServlet</servlet-name>
+    <servlet-class>individual.controller.NewFindAllServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ListUI</servlet-name>
+    <url-pattern>/servlet/ListUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ControllerServlet</servlet-name>
+    <url-pattern>/servlet/ControllerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/servlet/UploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet</servlet-name>
+    <url-pattern>/servlet/DownloadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PathServlet</servlet-name>
+    <url-pattern>/servlet/PathServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Path4Upload</servlet-name>
+    <url-pattern>/servlet/Path4Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceServlet</servlet-name>
+    <url-pattern>/servlet/ResourceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewFindAllServlet</servlet-name>
+    <url-pattern>/servlet/NewFindAllServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
